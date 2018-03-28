@@ -1,1 +1,0 @@
-Owned by: Divya Bharti
