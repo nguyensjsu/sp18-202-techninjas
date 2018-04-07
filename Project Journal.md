@@ -1,7 +1,19 @@
 
 
-Owned by: Divya Bharti
+# Owned by: Divya Bharti
 
-Core Value- Simplicity
+## Core Value- Simplicity
 
 Week 1: Our discussions have been around making minimalistic features, so that we learn and master the core features before going fancy and add additional features (if time permits).Simple and efficient.
+
+# Owned by: Divya Thazhathethil
+
+## Core Value- Respect
+
+Week 1: Following tasks should be taken care of to ensure core value "Respect" is followed:
+* Appreciate and value every team member's input and suggestions
+* Encourage every team member to contribute in each aspect of the project.
+* Take ownership of work and become responsible to what one does.
+
+Activities followed:
+* Discussions were conducted on "what kind of game?" and "which game-engine to use?". Every team member participated in the discussion and considered each other's inputs and ideas with mutual respect.
