@@ -28,3 +28,17 @@ Week 1: Tasks to make sure core value "Communication" is satisfied:
 Activities done:
 * Discussed on different project ideas and everyone in the team actively contributed and shared ideas. 
 * Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements. 
+
+
+### Owned by: Uttara Vishwas Kulkarni
+#### Core Value- Courage
+ 
+Week 1: Tasks to make sure core value "Communication" is satisfied:
+* Communicate face to face daily.
+* Work Together from requirements to code.
+* Solve each other's problem through communication and create the best solution together.
+
+
+Activities done:
+* Discussed on different project ideas and everyone in the team actively contributed and shared ideas. 
+* Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements. 
