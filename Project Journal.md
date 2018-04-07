@@ -15,3 +15,16 @@ Week 1: Following tasks should be taken care of to ensure core value "Respect" i
 
 Activities followed:
 * Discussions were conducted on "what kind of game?" and "which game-engine to use?". Every team member participated in the discussion and considered each other's inputs and ideas with mutual respect.
+
+### Owned by: Arshiya Pathan
+#### Core Value- Communication
+ 
+Week 1: Tasks to make sure core value "Communication" is satisfied:
+* Communicate face to face daily.
+* Work Together from requirements to code.
+* Solve each other's problem through communication and create the best solution together.
+
+
+Activities done:
+* Discussed on different project ideas and everyone in the team actively contributed and shared ideas. 
+* Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements. 
