@@ -1,14 +1,12 @@
+# XP Core Values
 
-
-# Owned by: Divya Bharti
-
-## Core Value- Simplicity
+### Owned by: Divya Bharti
+#### Core Value- Simplicity
 
 Week 1: Our discussions have been around making minimalistic features, so that we learn and master the core features before going fancy and add additional features (if time permits).Simple and efficient.
 
-# Owned by: Divya Thazhathethil
-
-## Core Value- Respect
+### Owned by: Divya Thazhathethil
+#### Core Value- Respect
 
 Week 1: Following tasks should be taken care of to ensure core value "Respect" is followed:
 * Appreciate and value every team member's input and suggestions
