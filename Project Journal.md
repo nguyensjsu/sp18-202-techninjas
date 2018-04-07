@@ -18,7 +18,7 @@ Activities followed:
 
 ### Owned by: Arshiya Pathan
 #### Core Value- Communication
- 
+Â 
 Week 1: Tasks to make sure core value "Communication" is satisfied:
 * Communicate face to face daily.
 * Work Together from requirements to code.
@@ -29,10 +29,8 @@ Activities done:
 * Discussed on different project ideas and everyone in the team actively contributed and shared ideas. 
 * Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements. 
 
-
 ### Owned by: Uttara Vishwas Kulkarni
 #### Core Value - Courage
- 
 Week 1: Checklist to ensure core value, "Courage" is practiced:
 * Focus on only what is required
 * Communicate and accept feedback
@@ -45,5 +43,17 @@ Activities done:
 * After careful observation and discussion, listed the points and areas of primary focus.
 * Communicated well with the team-mates. Considered feedbacks and made necessary changes to the core areas of focus.
 * Effectively communicated the progress of work and estimated time to complete the remaining work.
+
+### Owned by: Shilakha Dawar
+#### Core Value- Feedback
+
+Week 1: Tasks to make sure core value "Feedback" is satisfied:
+* Discussed edge cases for ideas given by team members.
+* Add recommendation to existing ideas.
+* Came up with the tentative idea to start with including the areas to focus upon in iteration. 
+
+Activities done:
+* Discussed on different project ideas. Suggested cases where a particular idea might work better and where might not. 
+* Made changes where needed after carefull consideration of requirements with complete involvement of the team.  
 
 
