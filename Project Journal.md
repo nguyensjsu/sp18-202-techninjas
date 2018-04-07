@@ -31,10 +31,19 @@ Activities done:
 
 
 ### Owned by: Uttara Vishwas Kulkarni
-#### Core Value- Courage
+#### Core Value - Courage
  
-Week 1: 
-
+Week 1: Checklist to ensure core value, "Courage" is practiced:
+* Focus on only what is required
+* Communicate and accept feedback
+* Tell the truth about progress and estimates
+* Refactoring the code
+* Adapting to the changes
 
 Activities done:
+* Listed the tasks involved in "Courage" (Core value) that will be practiced throughout the project life cycle.
+* After careful observation and discussion, listed the points and areas of primary focus.
+* Communicated well with the team-mates. Considered feedbacks and made necessary changes to the core areas of focus.
+* Effectively communicated the progress of work and estimated time to complete the remaining work.
+
 
