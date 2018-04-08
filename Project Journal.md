@@ -5,6 +5,10 @@
 
 Week 1: Our discussions have been around making minimalistic features, so that we learn and master the core features before going fancy and add additional features (if time permits).Simple and efficient.
 
+Activities:
+* Researched existing greenfoot games to find a suitable one to implement design patterns in.
+* Planning to create UML diagram for the game chosen for the abstract factory design pattern.
+
 ### Owned by: Divya Thazhathethil
 #### Core Value- Respect
 
