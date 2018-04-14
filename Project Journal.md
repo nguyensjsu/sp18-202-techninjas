@@ -9,6 +9,13 @@ Activities:
 * Researched existing greenfoot games to find a suitable one to implement design patterns in.
 * Planning to create UML diagram for the game chosen for the abstract factory design pattern.
 
+Week 2:
+For simplicity's sake we decided that that we'll keep only two gem collections for now.
+
+Activities:
+* Developed the two  walls fence for the game. 
+* Planning to add two other walls additionally.
+
 ### Owned by: Divya Thazhathethil
 #### Core Value- Respect
 
@@ -58,6 +65,8 @@ Week 1: Tasks to make sure core value "Feedback" is satisfied:
 
 Activities done:
 * Discussed on different project ideas. Suggested cases where a particular idea might work better and where might not. 
-* Made changes where needed after carefull consideration of requirements with complete involvement of the team.  
+* Made changes where needed after carefull consideration of requirements with complete involvement of the team. 
+
+
 
 
