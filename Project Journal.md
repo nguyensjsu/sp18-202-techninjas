@@ -74,3 +74,11 @@ Activities followed:
 * Everyone decided to take 1 design pattern each to implement in the code and discuss the approach with the team.
 
 
+### Owned by: Arshiya Pathan
+#### Core Value- Communication
+ 
+Activities done: 
+* Discussed and decided project topic Garden Maze. 
+* Communicated with team members about the game engine, ddesign patterns that can be included.
+* Finalized one design pattern for each team member
+* Started working on development of a code.
