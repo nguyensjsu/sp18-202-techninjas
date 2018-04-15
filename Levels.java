@@ -32,6 +32,32 @@ public class Levels extends World
 	public void prepareLevelTwo()
 	{
 			 wallRectTwo block ;
+
+			 PlayerTwo player = new PlayerTwo() ;
+        addObject(player,67,495) ;
+
+        // GreenGem object
+        GreenGem greenGem = new GreenGem() ;
+        addObject(greenGem,555,106);
+
+        // Enemy objects
+        EnemyHoriz enemy = new EnemyHoriz() ;
+        addObject(enemy,110,100) ;
+
+        EnemyHoriz enemy1 = new EnemyHoriz() ;
+        addObject(enemy1,225,500) ;
+
+        EnemyVert enemy2 = new EnemyVert();
+        addObject(enemy2, 300,300);
 	}
+
+	public void endLevelTwo()
+    {
+        removeObjects(getObjects(wallRect.class));
+        removeObjects(getObjects(Enemy.class));
+        removeObjects(getObjects(PlayerTwo.class));
+        removeObjects(getObjects(Home.class));
+        prepareLevelThree();
+    }
 
 }
