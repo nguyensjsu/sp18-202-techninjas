@@ -1,5 +1,7 @@
 # XP Core Values
 
+## Week 1
+
 ### Owned by: Divya Bharti
 #### Core Value- Simplicity
 
@@ -59,5 +61,15 @@ Week 1: Tasks to make sure core value "Feedback" is satisfied:
 Activities done:
 * Discussed on different project ideas. Suggested cases where a particular idea might work better and where might not. 
 * Made changes where needed after carefull consideration of requirements with complete involvement of the team.  
+
+
+## Week 2
+
+### Owned by: Divya Thazhathethil
+#### Core Value- Respect
+
+Activities followed:
+* This week team listened to everyone's opinion on selecting game engine for the project. After all the conversation team decided to go ahead with Garden Maze.
+*
 
 
