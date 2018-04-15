@@ -70,6 +70,7 @@ Activities done:
 
 Activities followed:
 * This week team listened to everyone's opinion on selecting game engine for the project. After all the conversation team decided to go ahead with Garden Maze.
-*
+* Game idea was finalized by the team and will work on it onwards.
+* Everyone decided to take 1 design pattern each to implement in the code and discuss the approach with the team.
 
 
