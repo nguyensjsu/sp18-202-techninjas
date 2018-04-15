@@ -12,24 +12,65 @@ public class Levels extends World
 	public void prepareLevelOne()
 	{
 		wallRectOne block ;
+		//vertical
 		for (int i = 2 ; i < 21 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 575, 27 * i) ;
         }
-
+		
+		//horizontal
 		for (int i =2 ; i < 22 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 27 * i, 50) ;
         }
-
+		
+		//horizontal
 		for (int i = 2 ; i < 22 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 27 * i, 550) ;
         }
+		
+		 //vertical
+        for (int i = 2 ; i < 9 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, 58, (27 * i)+11) ;
+        }  
 
+        //vertical
+        for (int i = 14; i < 21 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, 58, 27 * i) ;
+        }   
+		
+		
+		// INNER RECTANGLE
+
+        //horizontal wall 5 units long
+		for (int i = 12; i < 17; i++)
+		{
+           block = new wallRectOne();
+           addObject(block, (27*i)+5, 355);
+        }
+
+       //horizontal wall 5 units long
+       for (int i = 12; i < 17; i++)
+       {
+           block = new wallRectOne();
+           addObject(block, (27*i)+5, 245);
+        }
+
+        //vertical wall 5 units long
+        for (int i = 9; i < 14 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, 460, 27*i) ;
+        }  
+		
 		PlayerOne player = new PlayerOne() ;
         addObject(player,75,315) ;
 	}
