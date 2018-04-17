@@ -125,6 +125,20 @@ public class Levels extends World
 					addObject(block, 255, 27 * i) ;
 			}
 
+			//Third column
+	for (int i = 6 ; i < 17 ; i++)
+      {
+          block = new wallRectTwo() ;
+          addObject(block, 360, 27 * i) ;
+    	}
+
+			//fourth
+	for (int i = 3 ; i < 17 ; i++)
+	{
+			block = new wallRectTwo() ;
+			addObject(block, 475, 27 * i) ;
+	}
+
 	}
 	public void endLevelTwo()
     {
