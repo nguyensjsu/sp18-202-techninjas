@@ -18,36 +18,36 @@ public class Levels extends World
             block = new wallRectOne() ;
             addObject(block, 575, 27 * i) ;
         }
-		
+
 		//horizontal
 		for (int i =2 ; i < 22 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 27 * i, 50) ;
         }
-		
+
 		//horizontal
 		for (int i = 2 ; i < 22 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 27 * i, 550) ;
         }
-		
+
 		 //vertical
         for (int i = 2 ; i < 9 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 58, (27 * i)+11) ;
-        }  
+        }
 
         //vertical
         for (int i = 14; i < 21 ; i++)
         {
             block = new wallRectOne() ;
             addObject(block, 58, 27 * i) ;
-        }   
-		
-		
+        }
+
+
 		// INNER RECTANGLE
 
         //horizontal wall 5 units long
@@ -69,8 +69,8 @@ public class Levels extends World
         {
             block = new wallRectOne() ;
             addObject(block, 460, 27*i) ;
-        }  
-		
+        }
+
 		PlayerOne player = new PlayerOne() ;
         addObject(player,75,315) ;
 	}
@@ -112,6 +112,18 @@ public class Levels extends World
 				     block = new wallRectTwo() ;
 				     addObject(block, 27 * i, 550) ;
 				}
+	//First column
+	for (int i = 6 ; i < 20 ; i++)
+        {
+            block = new wallRectTwo() ;
+            addObject(block, 150, 27 * i) ;
+        }
+	//second column
+	for (int i = 6 ; i < 17 ; i++)
+			{
+					block = new wallRectTwo() ;
+					addObject(block, 255, 27 * i) ;
+			}
 
 	}
 	public void endLevelTwo()
