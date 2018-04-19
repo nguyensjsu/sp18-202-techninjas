@@ -11,12 +11,54 @@ public class InteractiveMover  extends Actor
     // Constructor
     public InteractiveMover()
     {
-        
+
     }
 
     // Method called whenever act or run is pressed.
-    public void act() 
+    public void act()
     {
         processKeys();
     }
+
+    // Read keybaord input.
+    public void processKeys()
+    {
+        if(Greenfoot.isKeyDown("left"))
+        {
+            setLocation(getX()-5, getY());
+            Actor wallCell = getOneIntersectingObject(wallRect.class);
+            if (wallCell !=null)
+            {
+                setLocation (getX()+5,getY());
+            }
+        }
+        if(Greenfoot.isKeyDown("right"))
+        {
+            setLocation(getX()+5, getY());
+            Actor wallCell = getOneIntersectingObject(wallRect.class);
+            if (wallCell !=null)
+            {
+                setLocation (getX()-5,getY());
+            }
+        }
+        if(Greenfoot.isKeyDown("up"))
+        {
+            setLocation(getX(), getY()-5);
+            Actor wallCell = getOneIntersectingObject(wallRect.class);
+            if (wallCell !=null)
+            {
+                setLocation (getX(),getY() + 5);
+            }
+        }
+        if(Greenfoot.isKeyDown("down"))
+        {
+            setLocation(getX(),getY()+5);
+            Actor wallCell = getOneIntersectingObject(wallRect.class);
+            if (wallCell !=null)
+            {
+                setLocation (getX(),getY() - 5);
+            }
+        }
+    }
+    
 }
