@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 
 public class PlayerThree extends InteractiveMover
-{    
+{
     // Constructor
     public PlayerThree()
     {
@@ -19,7 +19,7 @@ public class PlayerThree extends InteractiveMover
     // When run or act is pressed, the player tests if he/she
     // can move, moves if he/she can, and tests if he/she has
     // found the enemy, the gem, or gone home.
-    public void act() 
+    public void act()
     {
         if (canMove())
         {
@@ -28,5 +28,29 @@ public class PlayerThree extends InteractiveMover
         touchEnemy();
         getGoal();
         goHome();
-    }   
+    }
+    // Returns true if the player is within the world's borders.
+    public boolean canMove()
+    {
+        if (getX() > 0)
+        {
+           return true;
+        }
+        else if (getY() > 0)
+        {
+           return true;
+        }
+        else if (getX() < 500)
+        {
+           return true;
+        }
+        else if (getY() < 500)
+        {
+           return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     }
