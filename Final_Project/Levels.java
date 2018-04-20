@@ -151,6 +151,10 @@ public class Levels extends World
 			addObject(block, 475, 27 * i) ;
 	}
 
+	// Player object
+        PlayerTwo player = new PlayerTwo() ;
+        addObject(player,67,495) ;
+
 	// GreenGem object
         GreenGem greenGem = new GreenGem() ;
         addObject(greenGem,555,106);
@@ -175,6 +179,35 @@ public class Levels extends World
         prepareLevelThree();
     }
 
+		//Uttara
+		public void prepareLevelThree()
+		    {
+		       wallRectThree block ;
+
+			 // Player object
+       PlayerThree player = new PlayerThree() ;
+       addObject(player,30,495) ;
+
+        // GreenGem object
+       OrangeGem orangeGem = new OrangeGem() ;
+       addObject(orangeGem,577,106);
+
+			 // Enemy objects
+       EnemyVert enemy = new EnemyVert();
+       addObject(enemy, 75,100);
+
+       EnemyVert enemy1 = new EnemyVert();
+       addObject(enemy1, 180,200);
+
+       EnemyVert enemy2 = new EnemyVert();
+       addObject(enemy2, 290,300);
+
+       EnemyVert enemy3 = new EnemyVert();
+       addObject(enemy3, 400,400);
+
+       EnemyVert enemy4 = new EnemyVert();
+       addObject(enemy4, 505,500);
+		 }
 
 	 // Displays the "You Win!" screen.
     public void prepareWon()
