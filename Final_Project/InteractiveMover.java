@@ -60,5 +60,5 @@ public class InteractiveMover  extends Actor
             }
         }
     }
-    
+
 }
