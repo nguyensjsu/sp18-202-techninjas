@@ -98,6 +98,15 @@ Activities:
 * Developed the two  walls fence for the game. 
 * Planning to add two other walls additionally.
 
+### Owned by: Shilakha
+#### Core Value- Feedback
+
+
+Activities:
+* This week all team members discussed on the work done by one another as decided. 
+* Opinions and suggestions added accordingly.
+* Planned activities based on this week progress for next week to execute.
+
 
 ## Week 3
 
@@ -109,3 +118,6 @@ We decided to integrate all the code written so far so that future development c
 Activities:
 * Developed the rest two  walls fence for the game. 
 * Planning to add variations
+
+
+
