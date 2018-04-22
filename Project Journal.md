@@ -98,7 +98,7 @@ Activities:
 * Developed the two  walls fence for the game. 
 * Planning to add two other walls additionally.
 
-### Owned by: Shilakha
+### Owned by: Shilakha Dawar
 #### Core Value- Feedback
 
 
