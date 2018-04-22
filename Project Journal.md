@@ -97,3 +97,15 @@ For simplicity's sake we decided that that we'll keep only two gem collections f
 Activities:
 * Developed the two  walls fence for the game. 
 * Planning to add two other walls additionally.
+
+
+## Week 3
+
+### Owned by: Divya Bharti
+#### Core Value- Simplicity
+
+We decided to integrate all the code written so far so that future development can be syncronized. 
+
+Activities:
+* Developed the rest two  walls fence for the game. 
+* Planning to add variations
