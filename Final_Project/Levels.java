@@ -108,54 +108,56 @@ public class Levels extends World
         }
 		//vertical
 		for (int i = 2 ; i < 17 ; i++)
-			  {
-			      block = new wallRectTwo() ;
-			      addObject(block, 53, 27 * i) ;
-			  }
+		{
+		  block = new wallRectTwo() ;
+		  addObject(block, 53, 27 * i) ;
+		}
 		//horizontal
 		for (int i =2 ; i < 22 ; i++)
-				{
-				    block = new wallRectTwo() ;
-				    addObject(block, 27 * i, 50) ;
-				}
-	//horizontal
+		{
+			block = new wallRectTwo() ;
+			addObject(block, 27 * i, 50) ;
+		}
+		//horizontal
 		for (int i = 2 ; i < 22 ; i++)
-				{
-				     block = new wallRectTwo() ;
-				     addObject(block, 27 * i, 550) ;
-				}
-	//First column
-	for (int i = 6 ; i < 20 ; i++)
+		{
+			block = new wallRectTwo() ;
+			addObject(block, 27 * i, 550) ;
+		}
+				
+		//First column
+		for (int i = 6 ; i < 20 ; i++)
         {
             block = new wallRectTwo() ;
             addObject(block, 150, 27 * i) ;
         }
-	//second column
-	for (int i = 6 ; i < 17 ; i++)
-			{
-					block = new wallRectTwo() ;
-					addObject(block, 255, 27 * i) ;
-			}
+		
+		//second column
+		for (int i = 6 ; i < 17 ; i++)
+		{
+			block = new wallRectTwo() ;
+			addObject(block, 255, 27 * i) ;
+		}
 
-			//Third column
-	for (int i = 6 ; i < 17 ; i++)
-      {
+		//Third column
+		for (int i = 6 ; i < 17 ; i++)
+		{
           block = new wallRectTwo() ;
           addObject(block, 360, 27 * i) ;
     	}
 
-			//fourth
-	for (int i = 3 ; i < 17 ; i++)
-	{
+		//fourth
+		for (int i = 3 ; i < 17 ; i++)
+		{
 			block = new wallRectTwo() ;
 			addObject(block, 475, 27 * i) ;
-	}
+		}
 
-	// Player object
+		// Player object
         PlayerTwo player = new PlayerTwo() ;
         addObject(player,67,495) ;
 
-	// GreenGem object
+		// GreenGem object
         GreenGem greenGem = new GreenGem() ;
         addObject(greenGem,555,106);
 
@@ -170,6 +172,7 @@ public class Levels extends World
         addObject(enemy2, 300,300);
 
 	}
+	
 	public void endLevelTwo()
     {
         removeObjects(getObjects(wallRect.class));
@@ -179,37 +182,82 @@ public class Levels extends World
         prepareLevelThree();
     }
 
-		//Uttara
-		public void prepareLevelThree()
-		    {
-		       wallRectThree block ;
+	//Uttara
+	public void prepareLevelThree()
+	{
+		wallRectThree block ;
 
-			 // Player object
-       PlayerThree player = new PlayerThree() ;
-       addObject(player,30,495) ;
+		// Player object
+		PlayerThree player = new PlayerThree() ;
+		addObject(player,30,495) ;
 
-        // GreenGem object
-       OrangeGem orangeGem = new OrangeGem() ;
-       addObject(orangeGem,577,106);
+		// GreenGem object
+		OrangeGem orangeGem = new OrangeGem() ;
+		addObject(orangeGem,577,106);
 
-			 // Enemy objects
-       EnemyVert enemy = new EnemyVert();
-       addObject(enemy, 75,100);
+		// Enemy objects
+		EnemyVert enemy = new EnemyVert();
+		addObject(enemy, 75,100);
 
-       EnemyVert enemy1 = new EnemyVert();
-       addObject(enemy1, 180,200);
+		EnemyVert enemy1 = new EnemyVert();
+		addObject(enemy1, 180,200);
 
-       EnemyVert enemy2 = new EnemyVert();
-       addObject(enemy2, 290,300);
+		EnemyVert enemy2 = new EnemyVert();
+		addObject(enemy2, 290,300);
 
-       EnemyVert enemy3 = new EnemyVert();
-       addObject(enemy3, 400,400);
+		EnemyVert enemy3 = new EnemyVert();
+		addObject(enemy3, 400,400);
 
-       EnemyVert enemy4 = new EnemyVert();
-       addObject(enemy4, 505,500);
-		 }
+		EnemyVert enemy4 = new EnemyVert();
+		addObject(enemy4, 505,500);
+	}
 
-	 // Displays the "You Win!" screen.
+	// Displays the "You Win!" screen.
+    public void prepareWon()
+    {
+       setBackground("You Win!.png");
+       Greenfoot.stop();
+    }
+	
+	public void prepareLevelFour()
+    {
+        wallRectFour block ;
+
+       // OUTSIDE OUTER RECTANGLE
+       
+       // Player object        
+       PlayerFour player = new PlayerFour() ;
+       addObject(player,75,485) ;
+
+       // OrangeGem object        
+       Key key = new Key();
+       addObject(key,500,500);  
+        
+       // Enemy objects        
+       EnemyVert enemy = new EnemyVert() ;
+       addObject(enemy,220,194) ;    
+       
+       EnemyVert enemy1 = new EnemyVert() ;
+       addObject(enemy1,525,100) ;
+       
+       EnemyVert enemy2 = new EnemyVert() ;
+       addObject(enemy2,220,400) ;
+       
+       EnemyVert enemy3 = new EnemyVert() ;
+       addObject(enemy3,525,300) ;
+    }
+    
+    
+    public void endLevelFour()
+    {
+       removeObjects(getObjects(wallRect.class)); 
+       removeObjects(getObjects(Enemy.class)); 
+       removeObjects(getObjects(PlayerFour.class));
+       removeObjects(getObjects(Home.class)); 
+       prepareWon();
+    }
+    
+    // Displays the "You Win!" screen.
     public void prepareWon()
     {
        setBackground("You Win!.png");
