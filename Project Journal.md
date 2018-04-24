@@ -119,5 +119,13 @@ Activities:
 * Developed the rest two  walls fence for the game. 
 * Planning to add variations
 
+### Owned by: Divya Thazhathethil
+#### Core Value- Respect
+
+Activities followed:
+* Every team member knew what part of development they are responsible for and are trying to implement it way ahead of schedule.
+* Every functionality was given equal importance 
+* Everyone ideas were taken into consideration 
+
 
 
