@@ -124,14 +124,14 @@ public class Levels extends World
 			block = new wallRectTwo() ;
 			addObject(block, 27 * i, 550) ;
 		}
-				
+
 		//First column
 		for (int i = 6 ; i < 20 ; i++)
         {
             block = new wallRectTwo() ;
             addObject(block, 150, 27 * i) ;
         }
-		
+
 		//second column
 		for (int i = 6 ; i < 17 ; i++)
 		{
@@ -172,7 +172,7 @@ public class Levels extends World
         addObject(enemy2, 300,300);
 
 	}
-	
+
 	public void endLevelTwo()
     {
         removeObjects(getObjects(wallRect.class));
@@ -186,6 +186,63 @@ public class Levels extends World
 	public void prepareLevelThree()
 	{
 		wallRectThree block ;
+// make a vertical wall
+		for (int i = 6 ; i < 21 ; i++)
+		        {
+		            block = new wallRectThree() ;
+		            addObject(block, 575, 27 * i) ;
+		        }
+
+		        // make a vertical wall
+		        for (int i = 2 ; i < 17 ; i++)
+		        {
+		            block = new wallRectThree() ;
+		            addObject(block, 25, 27 * i) ;
+		        }
+
+		        // make a horizontal wall
+		        for (int i =1 ; i < 22 ; i++)
+		        {
+		            block = new wallRectThree() ;
+		            addObject(block, 27 * i, 50) ;
+		        }
+
+		        // make a horizontal wall
+		        for (int i = 1 ; i < 22 ; i++)
+		        {
+		            block = new wallRectThree() ;
+		            addObject(block, 27 * i, 550) ;
+		        }
+
+						// FIRST COLUMN
+        // make a vertical wall 12 units long starting at (130, 54) - �
+        for (int i = 2 ; i < 14 ; i++)
+        {
+            block = new wallRectThree() ;
+            addObject(block, 130, 27 * i) ;
+        }
+
+        // make a vertical wall 3 unts long starting at (130, 459) - �
+        for (int i = 17 ; i < 20 ; i++)
+        {
+            block = new wallRectThree() ;
+            addObject(block, 130, 27 * i) ;
+        }
+				// COLUMNS IN ORDER
+			// FIRST COLUMN
+
+			for (int i = 2 ; i < 14 ; i++)
+			{
+					block = new wallRectThree() ;
+					addObject(block, 130, 27 * i) ;
+			}
+
+			
+			for (int i = 17 ; i < 20 ; i++)
+			{
+					block = new wallRectThree() ;
+					addObject(block, 130, 27 * i) ;
+			}
 
 		// Player object
 		PlayerThree player = new PlayerThree() ;
@@ -218,45 +275,45 @@ public class Levels extends World
        setBackground("You Win!.png");
        Greenfoot.stop();
     }
-	
+
 	public void prepareLevelFour()
     {
         wallRectFour block ;
 
        // OUTSIDE OUTER RECTANGLE
-       
-       // Player object        
+
+       // Player object
        PlayerFour player = new PlayerFour() ;
        addObject(player,75,485) ;
 
-       // OrangeGem object        
+       // OrangeGem object
        Key key = new Key();
-       addObject(key,500,500);  
-        
-       // Enemy objects        
+       addObject(key,500,500);
+
+       // Enemy objects
        EnemyVert enemy = new EnemyVert() ;
-       addObject(enemy,220,194) ;    
-       
+       addObject(enemy,220,194) ;
+
        EnemyVert enemy1 = new EnemyVert() ;
        addObject(enemy1,525,100) ;
-       
+
        EnemyVert enemy2 = new EnemyVert() ;
        addObject(enemy2,220,400) ;
-       
+
        EnemyVert enemy3 = new EnemyVert() ;
        addObject(enemy3,525,300) ;
     }
-    
-    
+
+
     public void endLevelFour()
     {
-       removeObjects(getObjects(wallRect.class)); 
-       removeObjects(getObjects(Enemy.class)); 
+       removeObjects(getObjects(wallRect.class));
+       removeObjects(getObjects(Enemy.class));
        removeObjects(getObjects(PlayerFour.class));
-       removeObjects(getObjects(Home.class)); 
+       removeObjects(getObjects(Home.class));
        prepareWon();
     }
-    
+
     // Displays the "You Win!" screen.
     public void prepareWon()
     {
