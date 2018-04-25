@@ -35,8 +35,8 @@ Week 1: Tasks to make sure core value "Communication" is satisfied:
 
 
 Activities done:
-* Discussed on different project ideas and everyone in the team actively contributed and shared ideas. 
-* Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements. 
+* Discussed on different project ideas and everyone in the team actively contributed and shared ideas.
+* Everyone tried to understand overall concept and helped each other by solving doubts regarding the requirements.
 
 ### Owned by: Uttara Vishwas Kulkarni
 #### Core Value - Courage
@@ -59,11 +59,11 @@ Activities done:
 Week 1: Tasks to make sure core value "Feedback" is satisfied:
 * Discussed edge cases for ideas given by team members.
 * Add recommendation to existing ideas.
-* Came up with the tentative idea to start with including the areas to focus upon in iteration. 
+* Came up with the tentative idea to start with including the areas to focus upon in iteration.
 
 Activities done:
-* Discussed on different project ideas. Suggested cases where a particular idea might work better and where might not. 
-* Made changes where needed after carefull consideration of requirements with complete involvement of the team. 
+* Discussed on different project ideas. Suggested cases where a particular idea might work better and where might not.
+* Made changes where needed after carefull consideration of requirements with complete involvement of the team.
 
 
 
@@ -82,8 +82,8 @@ Activities followed:
 ### Owned by: Arshiya Pathan
 #### Core Value- Communication
  
-Activities done: 
-* Discussed and decided project topic Garden Maze. 
+Activities done:
+* Discussed and decided project topic Garden Maze.
 * Communicated with team members about the game engine, ddesign patterns that can be included.
 * Finalized one design pattern for each team member
 * Started working on development of a code.
@@ -95,7 +95,7 @@ Activities done:
 For simplicity's sake we decided that that we'll keep only two gem collections for now.
 
 Activities:
-* Developed the two  walls fence for the game. 
+* Developed the two  walls fence for the game.
 * Planning to add two other walls additionally.
 
 ### Owned by: Shilakha Dawar
@@ -103,9 +103,20 @@ Activities:
 
 
 Activities:
-* This week all team members discussed on the work done by one another as decided. 
+* This week all team members discussed on the work done by one another as decided.
 * Opinions and suggestions added accordingly.
 * Planned activities based on this week progress for next week to execute.
+
+### Owned by: Uttara Vishwas Kulkarni
+#### Core Value- Courage
+
+Activities:
+* Every team member during the discussion came forward and accepted others suggestions
+* Suggestions were accepted with full courage and changes were committed in the code.
+* As a symbol of Courage, changes were accepted by each team member.
+
+
+
 
 
 ## Week 3
@@ -113,10 +124,10 @@ Activities:
 ### Owned by: Divya Bharti
 #### Core Value- Simplicity
 
-We decided to integrate all the code written so far so that future development can be syncronized. 
+We decided to integrate all the code written so far so that future development can be syncronized.
 
 Activities:
-* Developed the rest two  walls fence for the game. 
+* Developed the rest two  walls fence for the game.
 * Planning to add variations
 
 ### Owned by: Divya Thazhathethil
@@ -124,8 +135,13 @@ Activities:
 
 Activities followed:
 * Every team member knew what part of development they are responsible for and are trying to implement it way ahead of schedule.
-* Every functionality was given equal importance 
-* Everyone ideas were taken into consideration 
+* Every functionality was given equal importance
+* Everyone ideas were taken into consideration
 
+### Owned by: Uttara Vishwas Kulkarni
+#### Core Value- Courage
 
-
+Activities:
+* As a symbol of Courage, changes were incorporated by the members in the implementation, according to the modifications done in the design of the Game.
+* Every member showed Courage and was ready to perform minute changes in the code as needed.
+* Members accepted the change and suggested necessary changes as well.
