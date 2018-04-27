@@ -46,7 +46,26 @@ public class Levels extends World
             block = new wallRectOne() ;
             addObject(block, 58, 27 * i) ;
         }
+		
+		// INSIDE OUTER RECTANGLE        
 
+        for (int i =6 ; i < 17 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, ((27 * i)+18), 150) ;
+        }      
+
+        for (int i = 6 ; i < 17 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, 175, 27 * i) ;
+        }
+
+        for (int i = 6 ; i < 17 ; i++)
+        {
+            block = new wallRectOne() ;
+            addObject(block, ((27 * i)+18), 450) ;
+        }  
 
 		// INNER RECTANGLE
 
