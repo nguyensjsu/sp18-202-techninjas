@@ -215,14 +215,14 @@ public class Levels extends World
 		        }
 
 						// FIRST COLUMN
-        // make a vertical wall 12 units long starting at (130, 54) - �
+        // make a vertical wall
         for (int i = 2 ; i < 14 ; i++)
         {
             block = new wallRectThree() ;
             addObject(block, 130, 27 * i) ;
         }
 
-        // make a vertical wall 3 unts long starting at (130, 459) - �
+        // make a vertical wall
         for (int i = 17 ; i < 20 ; i++)
         {
             block = new wallRectThree() ;
@@ -237,12 +237,58 @@ public class Levels extends World
 					addObject(block, 130, 27 * i) ;
 			}
 
-			
+
 			for (int i = 17 ; i < 20 ; i++)
 			{
 					block = new wallRectThree() ;
 					addObject(block, 130, 27 * i) ;
 			}
+			// SECOND COLUMN
+	        // make a vertical wall
+	    for (int i = 2 ; i < 12 ; i++)
+	    {
+	            block = new wallRectThree() ;
+	            addObject(block, 240, 27 * i) ;
+	    }
+
+	        // make a vertical wall
+	    for (int i = 15 ; i < 20 ; i++)
+	    {
+	            block = new wallRectThree() ;
+	            addObject(block, 240, 27 * i) ;
+	    }
+
+
+	        // THIRD COLUMN
+	        // make a vertical wall
+	        for (int i = 2 ; i < 10 ; i++)
+	        {
+	            block = new wallRectThree() ;
+	            addObject(block, 350, 27 * i) ;
+	        }
+
+	        // make a vertical wall
+	        for (int i = 13 ; i < 20 ; i++)
+	        {
+	            block = new wallRectThree() ;
+	            addObject(block, 350, 27 * i) ;
+	        }
+
+
+	        // FOURTH COLUMN
+	        // make a vertical wall
+	        for (int i = 3 ; i < 8 ; i++)
+	        {
+	            block = new wallRectThree() ;
+	            addObject(block, 453, 27 * i) ;
+	        }
+
+	        // make a vertical wall
+	        for (int i = 11 ; i < 20 ; i++)
+	        {
+	            block = new wallRectThree() ;
+	            addObject(block, 453, 27 * i) ;
+	        }
 
 		// Player object
 		PlayerThree player = new PlayerThree() ;
@@ -270,7 +316,16 @@ public class Levels extends World
 	}
 
 	// Displays the "You Win!" screen.
-    public void prepareWon()
+	public void endLevelThree()
+	    {
+	        removeObjects(getObjects(wallRect.class));
+	        removeObjects(getObjects(Enemy.class));
+	        removeObjects(getObjects(PlayerThree.class));
+	        removeObjects(getObjects(Home.class));
+	        prepareLevelFour();
+	    }
+
+		public void prepareWon()
     {
        setBackground("You Win!.png");
        Greenfoot.stop();
