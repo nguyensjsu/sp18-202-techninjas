@@ -81,6 +81,18 @@ public class PlayerThree extends InteractiveMover
             Greenfoot.playSound("goal.wav");
         }
     }
-        
+    // When the player reaches home, remove the home image,
+    // and call the endLevelThree method of the Levels class.
+    public void goHome()
+    {
+      Actor goHome = getOneIntersectingObject(Home.class);
+      if (goHome != null)
+      {
+          Greenfoot.playSound("home.wav");
+          getWorld().removeObject(goHome);
+          Levels world = (Levels)getWorld();
+          world.endLevelThree();
+      }
+    }  
 
-    }
+}
