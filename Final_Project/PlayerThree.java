@@ -69,5 +69,18 @@ public class PlayerThree extends InteractiveMover
             getWorld().removeObjects(getWorld().getObjects(Home.class));
         }
     }
-    
+
+    // The player must get the gem before the home portal will appear.
+    public void getGoal()
+    {
+        Actor takeGem = getOneIntersectingObject(Goal.class);
+        if (takeGem !=null)
+        {
+            getWorld().addObject(new House(), 30,495);
+            getWorld().removeObject(takeGem);
+            Greenfoot.playSound("goal.wav");
+        }
+    }
+        
+
     }
