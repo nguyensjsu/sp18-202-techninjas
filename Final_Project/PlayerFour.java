@@ -54,7 +54,7 @@ public class PlayerFour extends InteractiveMover
        }
 
    }
-   
+
    public void touchEnemy()
     {
         Actor playerReset = getOneIntersectingObject(Enemy.class);
