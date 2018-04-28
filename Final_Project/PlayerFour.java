@@ -19,5 +19,13 @@ public class PlayerFour extends InteractiveMover
     // When run or act is pressed, the player tests if he/she
     // can move, moves if he/she can, and tests if he/she has
     // found the enemy, the gem, or gone home.
-    
+    public void act()
+    {
+        if (canMove())
+        {
+           processKeys();
+        }
+        touchEnemy();
+        getGoal();
+        goHome();
     }
