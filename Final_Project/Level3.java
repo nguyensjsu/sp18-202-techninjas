@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-public class Level3 extends World
+public class Level3 implements LevelInterface extends World 
 {
 	public int level = 1;
 	public Level3()
