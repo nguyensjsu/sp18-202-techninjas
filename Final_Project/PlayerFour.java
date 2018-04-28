@@ -52,5 +52,18 @@ public class PlayerFour extends InteractiveMover
        {
            return false;
        }
+
    }
+   
+   public void touchEnemy()
+    {
+        Actor playerReset = getOneIntersectingObject(Enemy.class);
+        if (playerReset != null)
+        {
+            Greenfoot.playSound("enemy.wav");
+            setLocation(75,485);
+            getWorld().addObject(new Key(), 500,500);
+            getWorld().removeObjects(getWorld().getObjects(Home.class));
+        }
+    }
  }
