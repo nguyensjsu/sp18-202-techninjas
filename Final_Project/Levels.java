@@ -325,11 +325,6 @@ public class Levels extends World
 	        prepareLevelFour();
 	    }
 
-		public void prepareWon()
-    {
-       setBackground("You Win!.png");
-       Greenfoot.stop();
-    }
 
 	public void prepareLevelFour()
     {
