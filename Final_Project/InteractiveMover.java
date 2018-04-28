@@ -60,6 +60,7 @@ public class InteractiveMover  extends Actor
             }
         }
     }
+<<<<<<< HEAD:Final Project/InteractiveMover.java
     
     // Subtract SPEED from the x value.
     public void moveLeft()
@@ -88,4 +89,7 @@ public class InteractiveMover  extends Actor
     // state or instance variables
     private static final int SPEED = 10;
     
+=======
+
+>>>>>>> origin/master:Final_Project/InteractiveMover.java
 }
