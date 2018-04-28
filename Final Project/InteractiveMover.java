@@ -61,4 +61,31 @@ public class InteractiveMover  extends Actor
         }
     }
     
+    // Subtract SPEED from the x value.
+    public void moveLeft()
+    {
+        setLocation(getX()-SPEED,getY());
+    }
+    
+    // Add SPEED to the x value.
+    public void moveRight()
+    {
+        setLocation(getX()+SPEED,getY());
+    }
+    
+    // Add SPEED to the y value.
+    public void moveUp()
+    {
+        setLocation(getX(),getY()-SPEED);
+    }
+    
+    // Subtract SPEED to the y value.
+    public void moveDown()
+    {
+        setLocation(getX(),getY()+SPEED);
+    }
+    
+    // state or instance variables
+    private static final int SPEED = 10;
+    
 }
