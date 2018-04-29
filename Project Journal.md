@@ -145,3 +145,14 @@ Activities:
 * As a symbol of Courage, changes were incorporated by the members in the implementation, according to the modifications done in the design of the Game.
 * Every member showed Courage and was ready to perform minute changes in the code as needed.
 * Members accepted the change and suggested necessary changes as well.
+
+
+## Week 4
+
+### Owned by: Divya Thazhathethil
+#### Core Value- Respect
+
+Activities followed:
+* Members showed respect towards every change suggessted to any component.
+* If any integration caused complex issues, concerns were raised respectfully and made extra attempts to resolve the issue.
+
