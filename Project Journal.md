@@ -156,3 +156,12 @@ Activities followed:
 * Members showed respect towards every change suggessted to any component.
 * If any integration caused complex issues, concerns were raised respectfully and made extra attempts to resolve the issue.
 
+### Owned by: Divya Bharti
+#### Core Value- Simplicity
+
+We decided to integrate all the code written so far so that future development can be syncronized.
+
+Activities:
+* Developed the rest two  walls fence for the game.
+* Planning to add variations
+
