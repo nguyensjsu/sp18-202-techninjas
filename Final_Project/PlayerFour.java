@@ -66,4 +66,15 @@ public class PlayerFour extends InteractiveMover
             getWorld().removeObjects(getWorld().getObjects(Home.class));
         }
     }
+  
+    public void getGoal()
+    {
+        Actor takeGem = getOneIntersectingObject(Goal.class);
+        if (takeGem !=null)
+        {
+            Greenfoot.playSound("goal.wav");
+            getWorld().addObject(new Chest(), 75,485);
+            getWorld().removeObject(takeGem);
+        }
+    }
  }
