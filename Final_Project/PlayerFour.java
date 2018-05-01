@@ -62,11 +62,12 @@ public class PlayerFour extends InteractiveMover
         {
             Greenfoot.playSound("enemy.wav");
             setLocation(75,485);
-            
+            getWorld().addObject(new Key(), 500,500);
             getWorld().removeObjects(getWorld().getObjects(Home.class));
         }
     }
 
+    //The player must get the gem before the home portal will appear.
     public void getGoal()
     {
         Actor takeGem = getOneIntersectingObject(Goal.class);
