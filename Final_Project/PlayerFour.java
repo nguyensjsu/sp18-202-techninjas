@@ -78,4 +78,16 @@ public class PlayerFour extends InteractiveMover
             getWorld().removeObject(takeGem);
         }
     }
+
+    public void goHome()
+    {
+          Actor goHome = getOneIntersectingObject(Chest.class);
+          if (goHome != null)
+          {
+              Greenfoot.playSound("fanfare.wav");
+              
+              Levels world = (Levels)getWorld();
+              world.endLevelFour();
+          }
+    }
  }
