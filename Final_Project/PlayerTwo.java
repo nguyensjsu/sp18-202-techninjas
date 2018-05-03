@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  * should be eaten by a bug, has the house appear when the gem is reached,
  * and calls the End Level class.
  */
-public class PlayerTwo extends InteractiveMover
+public class PlayerTwo extends InteractiveMover implements InteractiveInterface
 {    
     // Consutrctor
     public PlayerTwo()
@@ -15,9 +15,7 @@ public class PlayerTwo extends InteractiveMover
         setRotation(0);
     }
 
-    // When run or act is pressed, the player tests if he/she
-    // can move, moves if he/she can, and tests if he/she has
-    // found the enemy, the gem, or gone home.
+    
     public void act() 
     {
         if (canMove())
@@ -29,7 +27,7 @@ public class PlayerTwo extends InteractiveMover
         goHome();
     }   
     
-    // Returns true if the player is within the world's borders.
+    
     public boolean canMove()
     
     {
@@ -55,10 +53,7 @@ public class PlayerTwo extends InteractiveMover
         }        
     }
       
-    // If the player touches the enemy, the player is
-    // reset to the start of the level, the gem is placed
-    // back if it was missing, and the home is removed if
-    // it was there.
+    
     public void touchEnemy()
     {
         Actor playerReset = getOneIntersectingObject(Enemy.class);
@@ -71,7 +66,7 @@ public class PlayerTwo extends InteractiveMover
         }
     }
 
-    // The player must get the gem before the home portal will appear.
+    
     public void getGoal()
     {
         Actor takeGem = getOneIntersectingObject(Goal.class);
@@ -83,8 +78,7 @@ public class PlayerTwo extends InteractiveMover
         }
     }
         
-    // When the player reaches home, remove the home image,
-    // and call the endLevelTwo method of the Levels class.
+    
     public void goHome()
     {
           Actor goHome = getOneIntersectingObject(Home.class);
