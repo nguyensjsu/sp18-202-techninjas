@@ -10,10 +10,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 
 public class PlayerOne extends InteractiveMover implements InteractiveInterface
 {    
+    
+PlayerState currentState;
+   PlayerState gemNotTakenState;
+   PlayerState gemTakenState;
     // Constructor
     public PlayerOne()
     {
         setRotation(0);
+        gemNotTakenState= new GemNotTakenState(this);
+         gemTakenState= new GemTakenState(this);
+        currentState=gemNotTakenState;
     }
 
     
