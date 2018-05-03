@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  * and calls the End Level class.
  */
 
-public class PlayerFour extends InteractiveMover
+public class PlayerFour extends InteractiveMover implements InteractiveInterface
 {
     // Constructor
     public PlayerFour()
