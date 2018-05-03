@@ -8,17 +8,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  * and calls the End Level class.
  */
 
-public class PlayerThree extends InteractiveMover
+public class PlayerThree extends InteractiveMover implements InteractiveInterface
 {
-    // Constructor
+    
     public PlayerThree()
     {
         setRotation(0);
     }
 
-    // When run or act is pressed, the player tests if he/she
-    // can move, moves if he/she can, and tests if he/she has
-    // found the enemy, the gem, or gone home.
+    
     public void act()
     {
         if (canMove())
@@ -29,7 +27,7 @@ public class PlayerThree extends InteractiveMover
         getGoal();
         goHome();
     }
-    // Returns true if the player is within the world's borders.
+    
     public boolean canMove()
     {
         if (getX() > 0)
