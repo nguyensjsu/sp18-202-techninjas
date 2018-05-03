@@ -1,26 +1,27 @@
-##CMPE 202 - Team Hackathon Project
+## CMPE 202 - Team Hackathon Project
 
-#Group Name:
+# Group Name:
 team202-techninjas
 
-#Group Details with XP Core Value associated:
+# Group Details with XP Core Value associated:
 Divya Bharti - Simplicity,
 Uttara Vishwas Kulkarni - Courage,
 Shilakha Dawar - Feedback,
 Arshiya Hayatkhan Pathan - Communication,
 Divya Kalidasan Thazhathethil - Respect
 
-#Alliance:
+# Alliance:
 Blue Alliance
 
-#Project Details:
+# Project Details:
 An interactive game built on the Java/Greenfoot.
 Following design patterns will be implemented in this game:
-Observer pattern
-State pattern
-Abstract/ factory pattern 
+Builder pattern
+Abstract factory pattern 
+State Pattern
+factory pattern 
 Strategy pattern
-Chain of Responsibility
+
 
 
 

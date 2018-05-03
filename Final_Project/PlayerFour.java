@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  * and calls the End Level class.
  */
 
-public class PlayerFour extends InteractiveMover
+public class PlayerFour extends InteractiveMover implements InteractiveInterface
 {
     // Constructor
     public PlayerFour()
@@ -65,5 +65,29 @@ public class PlayerFour extends InteractiveMover
             getWorld().addObject(new Key(), 500,500);
             getWorld().removeObjects(getWorld().getObjects(Home.class));
         }
+    }
+
+    //The player must get the gem before the home portal will appear.
+    public void getGoal()
+    {
+        Actor takeGem = getOneIntersectingObject(Goal.class);
+        if (takeGem !=null)
+        {
+            Greenfoot.playSound("goal.wav");
+            getWorld().addObject(new Chest(), 75,485);
+            getWorld().removeObject(takeGem);
+        }
+    }
+
+    public void goHome()
+    {
+          Actor goHome = getOneIntersectingObject(Chest.class);
+          if (goHome != null)
+          {
+              Greenfoot.playSound("fanfare.wav");
+              
+              Levels world = (Levels)getWorld();
+              world.endLevelFour();
+          }
     }
  }
