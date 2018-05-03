@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  * and calls the End Level class.
  */
 
-public class PlayerOne extends InteractiveMover
+public class PlayerOne extends InteractiveMover implements InteractiveInterface
 {    
     // Constructor
     public PlayerOne()
@@ -16,9 +16,7 @@ public class PlayerOne extends InteractiveMover
         setRotation(0);
     }
 
-    // When run or act is pressed, the player testst if he/she
-    // can move, moves if he/she can, and tests if he/she has
-    // found the enemy, the gem, or gone home.
+    
     public void act() 
     {
         if (canMove())
@@ -30,7 +28,7 @@ public class PlayerOne extends InteractiveMover
         goHome();
     }   
     
-    //Returns true if the player is within the world's borders.
+    
     public boolean canMove()
     {
         if (getX() > 0)
@@ -55,10 +53,7 @@ public class PlayerOne extends InteractiveMover
         }        
     }
         
-    // If the player touches the enemy, the player is
-    // reset to the start of the level, the gem is placed
-    // back if it was missing, and the home is removed if
-    // it was there.
+    
     public void touchEnemy()
     {
         Actor playerReset = getOneIntersectingObject(Enemy.class);
@@ -71,7 +66,7 @@ public class PlayerOne extends InteractiveMover
         }
     }
 
-    // The player must get the gem before the home portal will appear.
+    
     public void getGoal()
     {
         Actor takeGem = getOneIntersectingObject(Goal.class);
@@ -83,8 +78,7 @@ public class PlayerOne extends InteractiveMover
         }
     }
         
-    // When the player reaches home, remove the home image,
-    // and call the EndLevelOne method of the Levels class.
+  
     public void goHome()
     {
           Actor goHome = getOneIntersectingObject(Home.class);
