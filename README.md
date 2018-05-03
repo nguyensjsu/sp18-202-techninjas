@@ -16,9 +16,9 @@ Blue Alliance
 # Project Details:
 An interactive game built on the Java/Greenfoot.
 Following design patterns will be implemented in this game:
-Observer pattern
-State pattern
+Builder pattern
 Abstract factory pattern 
+State Pattern
 factory pattern 
 Strategy pattern
 
