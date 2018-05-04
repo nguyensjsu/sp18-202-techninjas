@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=wallRectOne
-comment0.text=\n\ The\ object\ that\ is\ produced\ for\ the\ maze\ for\ level\ one.\n
+comment0.text=\r\n\ The\ object\ that\ is\ produced\ for\ the\ maze\ for\ level\ one.\r\n
 comment1.params=
 comment1.target=wallRectOne()
 numComments=2
