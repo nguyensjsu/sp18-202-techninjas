@@ -22,7 +22,10 @@ PlayerState currentState;
          gemTakenState= new GemTakenState(this);
         currentState=gemNotTakenState;
     }
-
+    
+    public void setState(PlayerState p){
+        currentState = p;
+    }
     
     public void act() 
     {
