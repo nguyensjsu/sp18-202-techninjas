@@ -147,7 +147,7 @@ Activities done:
 * Collaborated with other team members to draw UML diagrams
 * Completed working on different methods for each player
 * Started working on player3 goHome method
-* Created UML class diagram for Strategy pattern
+* Designed UML class diagram for Strategy pattern
 * Will continue to work on player 3 and player 4.
 
 ### Owned by: Uttara Vishwas Kulkarni
@@ -188,3 +188,12 @@ Activities:
 * Each member in the discussion, accepted changes suggested by other team members.
 * Variations suggested by other team member was accepted and implemented with Courage.
 
+### Owned by: Arshiya Pathan
+#### Core Value- Communication
+ 
+Activities done:
+* Discussed with each other the problems faced while merging the code.
+* Integrated code successfully.
+* Helped each other in solving issues related to new functionalities added and design of patterns.
+* Completed working on player 4 and instantiation of players in different levels.
+* Implemented Stratey pattern for different actions performed by player in the various levels.
