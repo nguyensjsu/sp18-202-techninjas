@@ -3,12 +3,12 @@
 # Group Name:
 team202-techninjas
 
-# Group Details with XP Core Value associated:
-Divya Bharti - Simplicity,
-Uttara Vishwas Kulkarni - Courage,
-Shilakha Dawar - Feedback,
-Arshiya Hayatkhan Pathan - Communication,
-Divya Kalidasan Thazhathethil - Respect
+# Group Details with associated XP Core Value:
+* Divya Bharti - Simplicity,
+* Uttara Vishwas Kulkarni - Courage,
+* Shilakha Dawar - Feedback,
+* Arshiya Hayatkhan Pathan - Communication,
+* Divya Kalidasan Thazhathethil - Respect
 
 # Alliance:
 Blue Alliance
