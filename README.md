@@ -19,11 +19,11 @@ Following design patterns will be implemented in this game:
 Builder pattern
 Abstract factory pattern 
 State Pattern
-factory pattern 
+Factory pattern 
 Strategy pattern
 
 # Title of the Game:
-A Way Back Home!
+Get Rich!
 
 # Game Outline
 * Game consists of 4 levels. 
