@@ -138,6 +138,18 @@ Activities followed:
 * Every functionality was given equal importance
 * Everyone ideas were taken into consideration
 
+### Owned by: Arshiya Pathan
+#### Core Value- Communication
+ 
+Activities done:
+* Discussed the responsibilities of each team member.
+* Solved doubts regarding new functionalities to be added.
+* Collaborated with other team members to draw UML diagrams
+* Completed working on different methods for each player
+* Started working on player3 goHome method
+* Created UML class diagram for Strategy pattern
+* Will continue to work on player 3 and player 4.
+
 ### Owned by: Uttara Vishwas Kulkarni
 #### Core Value- Courage
 
