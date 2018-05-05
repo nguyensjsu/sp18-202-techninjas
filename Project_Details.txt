@@ -1,6 +1,6 @@
-## CMPE 202 - Team Hackathon Project
+CMPE 202 - Team Hackathon Project
 
-# Group Name:
+Group Name:
 team202-techninjas
 
 # Group Details with associated XP Core Value:
@@ -10,25 +10,25 @@ team202-techninjas
 * Arshiya Hayatkhan Pathan - Communication,
 * Divya Kalidasan Thazhathethil - Respect
 
-# Alliance:
+Alliance:
 Blue Alliance
 
-# Project Details:
+Project Details:
 An interactive game built on the Java/Greenfoot.
 Following design patterns will be implemented in this game:
 Builder pattern
 Abstract factory pattern
 State Pattern
-Factory pattern
+factory pattern
 Strategy pattern
 
-# Title of the Game:
+Title of the Game:
 A Way Back Home!
 
-#Link: Team's Ad Video on YouTube:
+Link: Team's Ad Video on YouTube:
 https://youtu.be/yI5NUaiqh8c
 
-# Game Outline
+Game Outline
 * Game consists of 4 levels.
 * At each level, a player needs to collect gems.
 * Gems are guarded by monsters.
