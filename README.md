@@ -22,6 +22,12 @@ State Pattern
 factory pattern 
 Strategy pattern
 
+# Game Outline
+* Game consists of 4 levels. 
+* At each level, a player needs to collect gems.
+* Gems are guarded by monsters. 
+* If a player comes across a monster, it dies and game level resets.
+
 
 
 
