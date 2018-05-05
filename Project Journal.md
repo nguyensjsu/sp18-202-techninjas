@@ -165,3 +165,14 @@ Activities:
 * Developed the rest two  walls fence for the game.
 * Planning to add variations
 
+### Owned by: Uttara Vishwas Kulkarni
+#### Core Value- Courage
+
+As a symbol of Courage, everyone agreed on the integration of the code.
+
+Activities:
+* Each member stepped forward, and explained their part of the code.
+* Explained why the merge is important
+* Each member in the discussion, accepted changes suggested by other team members.
+* Variations suggested by other team member was accepted and implemented with Courage.
+
